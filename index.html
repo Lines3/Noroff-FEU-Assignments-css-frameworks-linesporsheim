@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <script src="js/script.js" defer></script>
+    <script src="./js/script.js" defer></script>
 </head>
 
 <body class="bg-slate-50">
@@ -17,15 +17,14 @@
                     <span class="text-lg font-bold text-black">Login</span>
                 </a>
                 <div class="hidden md:flex items-center justify-between space-x-1">
-                    <a href="#" class="flex items-center py-2 px-2 hover:text-blue-900 transition duration-200">Feed</a>
-                    <a href="#"
+                    <a href="./feed/feed.html"
+                        class="flex items-center py-2 px-2 hover:text-blue-900 underline">Feed</a>
+                    <a href="./Profile/profile.html"
                         class="flex items-center py-2 px-2 hover:text-blue-900 transition duration-200">Profile</a>
                 </div>
                 <div class="hidden md:flex items-center justify-between space-x-1">
-                    <a href="#"
+                    <a href="./index.html"
                         class="flex items-center py-2 px-2 hover:text-blue-900 transition duration-200">Login</a>
-                    <a href="#"
-                        class="flex items-center py-2 px-2 hover:text-blue-900 transition duration-200">Register</a>
                 </div>
                 <div class="flex md:hidden items-center">
                     <button class="" id="menu-btn">
@@ -39,13 +38,13 @@
             <div class="hidden " id="mobile-menu">
                 <ul class="">
                     <li>
-                        <a href="/feed/feed.html" class="hover:text-blue-900">Feed</a>
+                        <a href="./feed/feed.html" class="hover:text-blue-900">Feed</a>
                     </li>
                     <li>
-                        <a href="/Profile/profile.html" class="hover:text-blue-900">Profile</a>
+                        <a href="./Profile/profile.html" class="hover:text-blue-900">Profile</a>
                     </li>
                     <li>
-                        <a href="/index.html" class="hover:text-blue-900">Login</a>
+                        <a href="./index.html" class="hover:text-blue-900">Login</a>
                     </li>
                 </ul>
             </div>
@@ -71,9 +70,9 @@
     </main>
     <footer class="bg-blue-900 text-white">
         <ul class="p-4">
-            <li><a href="/index.html" class="">Login</a></li>
-            <li><a href="/feed/feed.html" class="">Feed</a></li>
-            <li><a href="/profile/profile.html" class="">Profile</a></li>
+            <li><a href="./index.html" class="">Login</a></li>
+            <li><a href="./feed/feed.html" class="">Feed</a></li>
+            <li><a href="./profile/profile.html" class="">Profile</a></li>
         </ul>
     </footer>
 </body>
