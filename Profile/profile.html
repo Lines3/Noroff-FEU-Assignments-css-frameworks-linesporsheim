@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body class="bg-slate-50">
+    <header class="bg-blue-300 shadow-lg">
+        <nav class="container mx-auto">
+            <div class="flex justify-between">
+                <a href="/" class="flex items-center py-4 px-4">
+                    <span class="text-lg font-bold text-black">Profile</span>
+                </a>
+                <div class="hidden md:flex items-center justify-between space-x-1">
+                    <a href="../feed/feed.html"
+                        class="flex items-center py-2 px-2 hover:text-blue-900 underline">Feed</a>
+                    <a href="../Profile/profile.html"
+                        class="flex items-center py-2 px-2 hover:text-blue-900 transition duration-200">Profile</a>
+                </div>
+                <div class="hidden md:flex items-center justify-between space-x-1">
+                    <a href="../index.html"
+                        class="flex items-center py-2 px-2 hover:text-blue-900 transition duration-200">Login</a>
+                </div>
+                <div class="flex md:hidden items-center">
+                    <button class="" id="menu-btn">
+                        <svg class="w-6 h-6 text-black hover:text-blue-900" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M4 6h16M4 12h16m4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="hidden " id="mobile-menu">
+                <ul class="">
+                    <li>
+                        <a href="../feed/feed.html" class="hover:text-blue-900">Feed</a>
+                    </li>
+                    <li>
+                        <a href="../Profile/profile.html" class="hover:text-blue-900 undeline">Profile</a>
+                    </li>
+                    <li>
+                        <a href="../index.html" class="hover:text-blue-900">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="m-16 ">
+        <div class="">
+            <div class="h-40 w-40 md:w-60 md:h-60">
+                <div
+                    class="w-full h-40 bg-cover bg-center rounded-full bg-[url('https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=600')] md:h-60">
+                </div>
+            </div>
+            <div>
+                <p class="mt-4 text-3xl font-bold">Nora Olsen</p>
+            </div>
+            <div>
+                <p class="mt-4">nora.knitting
+            </div>
+            <div>
+                <p class="mt-4">10 following
+            </div>
+            <button class="bg-blue-950 p-2 mt-4 text-white rounded">
+                Follow+
+            </button>
+        </div>
+        <div class="mt-8">
+            <div>
+                <p class="text-lg">My posts</p>
+            </div>
+            <div class="container mx-auto grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-8">
+                <div class="relative bg-white shadow-lg rounded-lg overflow-hidden group">
+                    <div
+                        class="w-full h-60 bg-cover bg-center bg-[url('https://images.pexels.com/photos/3942945/pexels-photo-3942945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]">
+                    </div>
+                    <div
+                        class="absolute inset-0 bg-green-100 bg-opacity-40 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+                        Open post
+                    </div>
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-white bg-opacity-80 backdrop-blur-md">
+                        <h2 class="text-xl font-bold text-pink-500">
+                            Sweaters are nice
+                        </h2>
+                        <p class="text-blue-500 mt-1 truncate">Post about sweaters
+                        </p>
+                    </div>
+                </div>
+                <div class="relative bg-white shadow-lg rounded-lg overflow-hidden group">
+                    <div
+                        class="w-full h-60 bg-cover bg-center bg-[url('https://images.pexels.com/photos/5788376/pexels-photo-5788376.jpeg?auto=compress&cs=tinysrgb&w=600')]">
+                    </div>
+                    <div
+                        class="absolute inset-0 bg-green-100 bg-opacity-40 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+                        Open post
+                    </div>
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-white bg-opacity-80 backdrop-blur-md">
+                        <h2 class="text-xl font-bold text-pink-500">
+                            Crochet a sweater
+                        </h2>
+                        <p class="text-blue-500 mt-1 truncate">Post about crocheting
+                        </p>
+                    </div>
+                </div>
+                <div class="relative bg-white shadow-lg rounded-lg overflow-hidden group">
+                    <div
+                        class="w-full h-60 bg-cover bg-center bg-[url('https://images.pexels.com/photos/1550639/pexels-photo-1550639.jpeg?auto=compress&cs=tinysrgb&w=600')]">
+                    </div>
+                    <div
+                        class="absolute inset-0 bg-green-100 bg-opacity-40 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+                        Open post
+                    </div>
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-white bg-opacity-80 backdrop-blur-md">
+                        <h2 class="text-xl font-bold text-pink-500">
+                            Knit a sweater
+                        </h2>
+                        <p class="text-blue-500 mt-1 truncate">Post about the colour brown
+                        </p>
+                    </div>
+                </div>
+                <div class="relative bg-white shadow-lg rounded-lg overflow-hidden group">
+                    <div
+                        class="w-full h-60 bg-cover bg-center bg-[url('https://images.pexels.com/photos/2767689/pexels-photo-2767689.jpeg?auto=compress&cs=tinysrgb&w=600')]">
+                    </div>
+                    <div
+                        class="absolute inset-0 bg-green-100 bg-opacity-40 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+                        Open post
+                    </div>
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-white bg-opacity-80 backdrop-blur-md">
+                        <h2 class="text-xl font-bold text-pink-500">
+                            Brown sweater
+                        </h2>
+                        <p class="text-blue-500 mt-1 truncate">Knitting a brown sweater
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-blue-900 text-white">
+        <ul class="p-4">
+            <li><a href="../index.html" class="">Login</a></li>
+            <li><a href="../feed/feed.html" class="">Feed</a></li>
+            <li><a href="../profile/profile.html" class="">Profile</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
